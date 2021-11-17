@@ -8,12 +8,15 @@
 # it gets replaced by the "replace" string.
 matches:
   # Simple text replacement
-  - trigger: ":espanso"
+  - 
+    trigger: ":espanso"
     replace: "Hi there!"
-
+  - 
+    trigger: "yee"
+    replace: "🦎"
   # Simple text replacement
   - trigger: "ccard"
-    replace: "#🧠 →→ "
+    replace: "#🧠 *Q&A* $|$ →→ "
   # Dates
   - trigger: ":date"
     replace: "{{mydate}}"
