@@ -1,0 +1,4 @@
+trigger,replace
+fever;;,🌡️feve
+
+

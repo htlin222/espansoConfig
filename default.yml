@@ -14,7 +14,58 @@ matches:
   - 
     trigger: "yee"
     replace: "🦎"
-  # Simple text replacement
+  - 
+    trigger: ";x;"
+    replace: "❌"
+  - 
+    trigger: ";o;"
+    replace: "⭕"
+  - 
+    trigger: ";check;"
+    replace: "☑️"
+  - 
+    trigger: ";thumb;"
+    replace: "👍"
+  - 
+    trigger: "newtri"
+    replace: "\";$|$;\",\"{{clipboard}}\""
+    vars:
+      - name: "clipboard"
+        type: "clipboard"
+  -
+    trigger: ";fever;"
+    replace: "🌡️ 發燒 "
+  -
+    trigger: ";treat;"
+    replace: "💊 治療 "
+  -
+    trigger: ";flu;"
+    replace: "🤒 感染"
+  -
+    trigger: ";pe;"
+    replace: "🏋️ 理學檢查 "
+  -
+    trigger: ";lab;"
+    replace: "🩸 實驗室檢查 "
+  -
+    trigger: ";se;"
+    replace: "👻 副作用"
+  -
+    trigger: ";nb;"
+    replace: "🚨 注意"
+  -
+    trigger: ";iv;"
+    replace: "💉 用藥"
+  -
+    trigger: ";bac;"
+    replace: "🦠"
+  -
+    trigger: ";pulm;"
+    replace: "🫁"
+  -
+    trigger: ";neuro;"
+    replace: "🧠"
+
   - trigger: "ccard"
     replace: "#🧠 *Q&A* $|$ →→ "
   # Dates
