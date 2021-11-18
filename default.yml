@@ -65,6 +65,9 @@ matches:
   -
     trigger: ";neuro;"
     replace: "🧠"
+  - 
+    trigger: ";n;"
+    replace: "<br>"
 
   - trigger: "ccard"
     replace: "#🧠 *Q&A* $|$ →→ "
