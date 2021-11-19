@@ -37,40 +37,25 @@ matches:
     replace: "🌡️ 發燒 "
   -
     trigger: ";mx;"
-    replace: "💊治療 "
-  -
-    trigger: ";pathophy;"
-    replace: "🔄致病機轉"
-  -
-    trigger: ";sum;"
-    replace: "📖結論"
-  -
-    trigger: ";;"
-    replace: ""
-  -
-    trigger: ";;"
-    replace: ""
-  -
-    trigger: ";;"
-    replace: ""
+    replace: "💊 治療 "
   -
     trigger: ";flu;"
-    replace: "🤒感染"
+    replace: "🤒 感染"
   -
     trigger: ";pe;"
     replace: "🏋️ 理學檢查 "
   -
     trigger: ";lab;"
-    replace: "🧪Lab 檢查 "
+    replace: "🧪 Lab 檢查 "
   -
     trigger: ";se;"
-    replace: "👻副作用"
+    replace: "👻 副作用"
   -
     trigger: ";nb;"
-    replace: "🚨"
+    replace: "🚨 注意"
   -
     trigger: ";rx;"
-    replace: "💉藥"
+    replace: "💉 用藥"
   -
     trigger: ";bac;"
     replace: "🦠"
@@ -103,7 +88,7 @@ matches:
     replace: "☣️"
   - 
     trigger: ";cvrisk;"
-    replace: "🫀 心血管風險 "
+    replace: "💔🫀 心血管風險 "
   - 
     trigger: ";gg;"
     replace: "😵"
@@ -121,7 +106,7 @@ matches:
     replace: "<br>"
   - 
     trigger: ";ddx;"
-    replace: "🔍鑑別診斷🔎"
+    replace: "🔍 鑑別診斷 🔎"
   - 
     trigger: ";flow;"
     replace: |
