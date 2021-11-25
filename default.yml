@@ -45,8 +45,8 @@ matches:
     trigger: ";sum;"
     replace: "📖結論"
   -
-    trigger: ";;"
-    replace: ""
+    trigger: ";kissalot;"
+    replace: "🥰😍🤩😘😗😚"
   -
     trigger: ";;"
     replace: ""
@@ -126,6 +126,7 @@ matches:
     trigger: ";flow;"
     replace: |
             ```mermaid
+            `%%{init: {'securityLevel': 'loose','theme':'base','themeVariables': { 'primaryColor': '#fff'}}}%%
             graph TD;
             A[$|$];
             B[left];
